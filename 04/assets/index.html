@@ -7,46 +7,31 @@
     
     <title>Document</title>
     <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./reset.css">
 </head>
 <body>
-    <section>
-        <div>
-            <ul class="nav">
-                <li class="nav__item">
-                HOME
-                </li>
-                <li class="nav__item">
-                ITEMS
-                   <ul class="nav__dropdown">
-                        <li class="dropdown__item">
-                            Item 1 
-                        
-                            <ul class="dropdown__item--new">
-                                Item 1.1
-                            </ul>
-                        </li>
-                        <li class="dropdown__item">
-                            Item 2 
-                        
-                            <ul class="dropdown__item--new">
-                                Item 2.1 
-                            </ul>
-                            <ul class="dropdown__item--new">
-                                Item 2.2 
-                            </ul>
-                        </li>
-                       
-                    </ul>    
-                
-                <li class="nav__item">
-                SETTINGS
-                </li>
-                <li class="nav__item">
-                CONTACT
-                </li>
-            </ul>
-        </div>
-    </section>
-    
+    <div>
+        <ul class="nav">
+            <li class="nav__item">HOME</li>
+            <li class="nav__item">ITEMS<a href="#"></a>
+                <ul class="nav__dropdown">
+                    <li class="nav__dropdown-item">Item 1<a href="#"></a>
+                        <ul class="nav__subdropdown">
+                            <li class="nav__subdropdown-item">Item 1.1</li>
+                        </ul>
+                    </li>
+               
+                    <li class="nav__dropdown-item">Item 2<a href="#"></a>
+                        <ul class="nav__subdropdown">
+                            <li class="nav__subdropdown-item">Item 2.1</li>
+                            <li class="nav__subdropdown-item">Item 2.2</li>
+                        </ul>
+                    </li>
+                </ul>
+            </li>
+            <li class="nav__item">SETTINGS</li>
+            <li class="nav__item">CONTACT</li>
+        </ul>
+    </div>
 </body>
 </html>
